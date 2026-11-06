@@ -1,6 +1,6 @@
 # PID Self-Leveling Platform
 
-A single-axis feedback control system that keeps a hinged platform near horizontal when its base tilts. An **MPU6050** estimates platform tilt, a **PID controller** computes the correction, and an **SG90 servo** moves the platform toward the **0° setpoint**.
+A single-axis feedback control system that keeps a hinged platform near horizontal when its base tilts. A complementary filter estimates tilt from **MPU6050** measurements, a **PID controller** computes the correction, and an **SG90 servo** moves the platform toward the **0° setpoint**.
 
 Developed as a group project for **IE3034 Control Systems Engineering** at the **Sri Lanka Institute of Information Technology (SLIIT)**.
 
